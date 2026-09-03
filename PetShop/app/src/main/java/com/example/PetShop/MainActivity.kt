@@ -10,8 +10,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         val cat = Cat("Coco", 6)
-        val dog = Dog("Coco2", 2)
-        val scorpion = Scorpion("Coco3", 1)
+        val dog = Dog("Mochi", 6)
+        val scorpion = Scorpion("Stinger", 32)
 
         val pets = mutableListOf<Pet>()
         pets.add(cat)
